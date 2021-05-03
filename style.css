@@ -1,0 +1,81 @@
+.logo {
+    border-radius: 70%;
+    -webkit-border-radius: 70%;
+    -moz-border-radius: 70%;
+    -ms-border-radius: 70%;
+    -o-border-radius: 70%;
+    width: 10%;
+    /* position: absolute;
+left: 50% */
+}
+
+.farm {
+    font-size: 25px;
+    text-align: center;
+    background-color: rgb(0, 238, 255);
+}
+
+.shed2 {
+    background-image: url("images/cows2.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 10%;
+}
+
+.shed2 p {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: rgb(0, 238, 255);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(48, 136, 148);
+}
+
+.production {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 30%;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 40px;
+    background-color: white;
+}
+
+h3 {
+    color: rgb(0, 238, 255);
+}
+
+.stat {
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+}

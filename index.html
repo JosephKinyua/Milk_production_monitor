@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> s
+    <script src="math.js"></script>
+    <title>Milk production monitor</title>
+</head>
+
+<body>
+    <div class=" farm ">
+        <img class="logo " src=" images/logo.jpg ">
+        <p>J.N.K DAIRY FARM</p>
+    </div>
+
+
+    <div class="shed2 ">
+        <!-- <img src="images/cows.gif " alt="cow shed two "> -->
+        <p>J.N.K Dairy farm is a farm that deal with the milk production in large quantity we have various type of breeds that are able to give us high quantity of milk.We have four shed for our cows where each shed produces it amount of milk in term of
+            litter have. We a land where we grow our fodders in order to feed our cows and also our veterinary who help in the looking of the health of all animals and providing them with the required nutrients so that they cannot lower the production
+            and the quality of the milk.We sell our milk to the Brookside company where they come for the milk from our farm.The farm uses digilized method of collecting the daily data of the milk produce in each shed and the day so that the farm record
+            can be collected in a common pool for easier management of the farm and budgetary.</p>
+
+        <p>Our farm offers training for young farmers who have the desire to start their dairy farm also we offer the crossbreeding of our animal where we sell our affordable calfes at a better price to enhance agriculture as the backbone of our economy.</p>
+
+        <div class="stat ">
+            <table>
+                <tr>
+                    <th>SHED NO</th>
+                    <th>ShedA</th>
+                    <th>ShedB</th>
+                    <th>ShedC</th>
+                    <th>ShedD</th>
+                </tr>
+                <tr>
+                    <td>No of cows</td>
+                    <td>17</td>
+                    <td>11</td>
+                    <td>18</td>
+                    <td>22</td>
+
+                </tr>
+                <tr>
+                    <td>Average Liters Per cow</td>
+                    <td>30</td>
+                    <td>28</td>
+                    <td>27</td>
+                    <td>26</td>
+                </tr>
+            </table>
+        </div>
+        <h3> J.N.K DAIRY MILK PRODUCTION MONITOR</h3>
+
+        <div class="production">
+            <form action="/action_page.php">
+                <label for="shed">SHED NO:</label>
+                <select id="shed" name="shed">
+      <option value="shed1">SHED A</option>
+      <option value="shed2">SHED B</option>
+      <option value="shed3">SHED C</option>
+      <option value="shed3">SHED D</option>
+    </select>
+                <label for="day">Day:</label>
+                <input type="text" id="day" name="day" placeholder="date..">
+
+                <label for="lname">Month:</label>
+                <input type="text" id="month" name="Month" placeholder="Current month..">
+
+                <label for="Year">Year:</label>
+                <input type="text" id="Year" name="Month" placeholder="Current year..">
+
+                <label for="Year">Quantity:</label>
+                <input type="text" id="litter" name="liter" placeholder="Quantity produced in litter..">
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+    <footer>
+
+    </footer>
+
+
+
+
+</body>
+
+</html>
